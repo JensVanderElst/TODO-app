@@ -1,0 +1,71 @@
+#error{
+    width: 75%;
+    margin: auto;
+}
+.white{
+    color: white;
+}
+#logout{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 2;
+}
+#welcome{
+    margin-top: -80px;
+    width: 60px;
+    color: white;
+    z-index: 5;
+}
+.table tr th{
+    border-top: 0;
+}
+.tasklabel{
+    width: 25%;
+}
+.taskcontainer{
+    margin-top: 50px;
+}
+.done{
+    text-decoration: line-through;
+}
+.donebtn{
+    display: none;
+}
+.title::first-letter{
+    text-transform: uppercase;
+}
+.title{
+    margin-bottom: 50px;
+}
+.input-field{
+        display: inline;
+        width: 50%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      
+}
+
+#navigatie{
+    background-color: #9fa6d2;
+    margin-bottom: 30px;
+    width: 1920px;
+    height: 80px;
+}
+
+#binnenkort{
+    color: orange;
+}
+
+#laat{
+    color: red;
+}
